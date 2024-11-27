@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navabr{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    height: 72px;
+    position: fixed;
+}
+.nav-logo{
+    margin-left: 147px;
+    margin-top: 21px;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 900;
+}
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    margin-left: 279px;
+    margin-top: 26px;
+    
+}
+.nav-menu ul li a{
+    color: #fff;
+    padding-left: 37px;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+}
+.nav-menu ul li:hover a {
+    color: #d45f00;
+}
+
+.btn {
+    margin-left: 85px;
+    padding: 10px 23px;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: -11px;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: green;
+}
+.btn a:hover{
+    color: #fff;
+}
+.btn:hover{
+    background-color: #d45f00;
+    color: #fff;
+}
+
+/* portfolio-section */
+#about-section{
+    background-color: #bed1d938;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.about-img img{
+    width: 253px;
+    height: 273px;
+    margin-left: 141px;
+    margin-top: 136px;
+    border-radius: 50%;
+    margin-right: 58px;
+}
+
+.about-details{
+    margin-left: 131px;
+    margin-top: 142px;
+}
+#jis{
+    color: orangered;
+}
+.about-details p{
+    padding-top: 21px;
+}
+.about-details .btn1{
+    margin-top: 40px;
+}
+.btn1{
+    background-color: black;
+    color: white;
+    padding: 11px 24px;
+    border-style: none;
+    border-radius: 8px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.btn2{
+    background-color: orangered;
+    color: white;
+    padding: 11px 24px;
+    border-style: none;
+    border-radius: 8px;
+    font-weight: 800;
+    margin-left: 17px;
+    cursor: pointer;
+}
+.btn1 a{
+    text-decoration: none;
+    color: #fff;
+}
+/*------- about-section------ */
+#home-section{
+    background-color: black;
+    display: flex;
+    height: 646px;
+}
+.home-img img{
+    width: 253px;
+    height: 273px;
+    border-radius: 50%;
+    margin-left: 98px;
+    margin-top: 116px;
+}
+.home-content{
+    margin-left: 160px;
+    margin-top: 100px;
+}
+.home-content h1{
+    color: #fff;
+    font-size: 44px;
+}
+.home-content h1 span{
+    color: orangered;
+}
+.home-content h2 {
+    color: #fff;
+    font-size: 40px;
+}
+.home-content h2 span{
+    color: orangered;
+}
+.home-content p{
+    color: #fff;
+    margin-top: 16px;
+    font-size: 20px;
+}
+.btn3{
+    color: orange;
+    border-style: none;
+    font-weight: 800;
+    font-size: 17px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 7px 12px;
+    margin-top: 5px;
+    margin-left: -2px;
+    cursor: pointer;
+}
+#skill-section{
+    background-color: #bed1d938;
+    height: 635px;
+}
+.skill-heading{
+    text-align: center;
+}
+.skill-heading h1{
+    padding-top: 80px;
+}
+
+#skill-section .cells{
+    display: flex;
+    margin-top: 70px;
+}
+#skill-section .cells .cell{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 200px;
+       padding: 10px 20px;
+       margin: 10px;
+       border: 1.5px solid #d3d3d3;
+       border-radius: 5px;
+}
+#skill-section .cells .cell img{
+    width: 30px;
+    height: 30px;
+    padding-right: 7px;
+}
+
+.skill-content{
+    text-align: center;
+}
+#contact-section{
+    height: 575px;
+}
+.contact-heading{
+    text-align: center;
+    margin-top: 0px;
+}
+.contact-heading h1{
+    padding-top: 115px;
+}
+.contact-heading span{
+    color: orangered;
+}
+.input-data{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    width: 100%;
+    margin-top: 20px;
+}
+.input-data input{
+    width: 406px;
+    height: 36px;
+    margin-left: 486px;
+    border-radius: 5px;
+}
+.input-data textarea {
+    width: 410px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-left: 486px;
+    height: 90px;
+}
+.btn4{
+    margin: 29px 628px;
+    padding: 12px;
+    font-size: 14px;
+    display: flex;
+    width: 124px;
+    height: 41px;
+    border-radius: 7px;
+    border-style: none;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn4:hover{
+    background-color: skyblue;
+    color: black;
+}
+
